@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
- * @brief this program prints the written print inside the puts function
+ * main - this function prinst the string input
  * 
- * @return 0
+ * Description: the main function is used
+ * the program will print "Programming is like building a multilingual puzzle"
+ * Return: 0
  */
 int main (void)
 {
