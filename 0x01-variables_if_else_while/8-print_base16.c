@@ -8,7 +8,7 @@
  * This program prints "programming is positive, xero, or negative"
  * Return: 0
  */
-int main(void);
+int main(void)
 {
 char c;
 for (c = '0'; c <= 'f'; c++)
