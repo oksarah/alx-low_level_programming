@@ -3,13 +3,8 @@
 /**
  * 'print_alphabet': -> print in lowercase
  */
-
-void print_alphabet(void)
+int main(void)
 {
-int j;
-for (j = 'a'; j <= 'z'; j++)
-putchar(j);
-putchar('\n');
+print_alphabet();
+return (0);
 }
-
-end
