@@ -20,7 +20,7 @@ _putchar(hours / 10 + '0');
 _putchar(hours_remainder + '0');
 _putchar(':');
 _putchar(minutes / 10 + '0');
-_putchar(minutes_remainder + '0');
+_putchar(0);
 minutes++;
 _putchar('\n');
 }
