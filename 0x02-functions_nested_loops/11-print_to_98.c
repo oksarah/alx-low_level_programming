@@ -6,8 +6,17 @@
  * @n: the number starts counting
  * Return: 0
  */
+extern void print_to_98(int n)
 int main()
 {
+print_to_98(98);
+print_to_98(111);
+print_to_98(81);
+print_to_98(0);
+print_to_98(-98);
+print_to_98(-111);
+return (0);
+}
 void print_to_98(int n)
 {
 if (n >= 98)
@@ -30,12 +39,4 @@ else
     
 }
 
-}
-print_to_98(98);
-print_to_98(111);
-print_to_98(81);
-print_to_98(0);
-print_to_98(-98);
-print_to_98(-111);
-return (0);
 }
