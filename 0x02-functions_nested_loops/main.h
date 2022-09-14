@@ -3,12 +3,13 @@
 
 /**
  * _putchar - printing in lowercase
- * 
+ * Description: using the main function
  * Return:0  
  */
 int _putchar(char);
 /**
  * print_alphabet - in lowercase
+ * Declare: using main function
  * Return: Always 0
  */
 int print_alphabet(int c);
