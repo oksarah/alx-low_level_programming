@@ -2,7 +2,6 @@
 
 /**
  * main - check the code
- * 
  * return: Alawys 0
  */
 int main(void)
