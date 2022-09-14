@@ -7,7 +7,7 @@
  * Return: 0
  */
 void print_to_98(int n);
-(print_to_98(98))
+(ptint_to_98(98))
 {
 if (n >= 98)
 {
