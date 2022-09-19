@@ -4,7 +4,7 @@
 /**
  * print_array - prints n element of array
  * @a: array
- * @b: number of elements
+ * @n: number of elements
  * Return: Always 0.
  */
 void print_array(int *a, int n)
