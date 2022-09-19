@@ -25,6 +25,5 @@ s[j] = temp;
 k++;
 j--;
 }
-
 putchar(10);
 }
