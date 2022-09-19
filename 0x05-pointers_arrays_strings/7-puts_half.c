@@ -20,5 +20,5 @@ while (half < index)
 putchar(str[half]);
 half++;
 }
-_putchar('\n');
+putchar('\n');
 }
