@@ -1,5 +1,7 @@
 #include "main.h"
 #include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 
 /**
  * _strcat - strings, overrites the  terminal then adds null byte
