@@ -4,9 +4,9 @@
 #include <stdlib.h>
 
 /**
- * _strcat - strings, overrites the  terminal then adds null byte
- * @dest: points to the string
- * @src: sources the string to the dest
+ * _strcat - concatenates the strings pointed by @src to the end of the string pointed to by @dest
+ * @dest: string that will be appended
+ * @src: string to be concatenated upon
  * Return: Always 0.
  */
 char *_strcat(char *dest, char *src);
