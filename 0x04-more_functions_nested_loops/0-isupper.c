@@ -4,14 +4,11 @@
 /**
  * _isupper - checks if a character is uppercase or not
  * @c: checks input
- * Return: 1 whether c it is, 0 otherwise
+ * Return: 1 if c is uppercase, 0 otherwise
  */
-
 int _isupper(int c)
 {
-if ((c >= 'A') && (c <= 'Z'))
-{
+if ((c >= 65 && c <= 90)
 return (1);
-}
-
 return (0);
+}
