@@ -5,17 +5,18 @@
  * _strncpy - strings, overrites the  terminal then adds null byte
  * @dest: points to the string
  * @src: sources the string to the dest
+ * @n: max number of byte copied
  * Return: Always 0.
  */
-char *_strncpy(char *dest, char *src, int n);
+char *_strncpy(char *dest, char *src, int n)
 {
-int index = 0, dest_len = 0;
+int i;
 
-while (dest[index++])
-dest_len++;
+for (i = 0; i < n && src[i] != '\0'; i++)
+dest[i] = src[i];
 
-for (inde = 0; src[index]; index++)
-dest[dest_len++] = src[index];
+for (i < n; i++)
+dest[i] = '\0';
 
 return (dest);
 }
