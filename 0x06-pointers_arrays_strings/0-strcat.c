@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * _strcat - concatenates the strings pointed by @src to the end 
+ * _strcat - concatenates the strings pointed by @src to the end
  * of the string pointed to by @dest
  * @dest: string that will be appended
  * @src: string to be concatenated upon
- * Return: returns pointer to @dest.
+ * Return: returns pointer to @dest
  */
 char *_strcat(char *dest, char *src)
 {
