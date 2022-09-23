@@ -2,10 +2,19 @@
 #include <stdio.h>
 
 /**
- * _strcat - strings, overrites the  terminal then adds null byte
- * @dest: points to the string
- * @src: sources the string to the dest
+ * string_toupper - changes all lowercases letters of a string to uppercase
+ * @str:  parameter
  * Return: Always 0.
  */
-char *string_toupper(char *);
+char *string_toupper(char *)
 {
+int index = 0;
+
+while (str[index++])
+{
+if (str[index] >= 'a' && src[index] <= 'z')
+str[index] -= 32;
+}
+
+return (str);
+}
