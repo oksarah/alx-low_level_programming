@@ -15,6 +15,5 @@ while (str[index++])
 if (str[index] >= 'a' && src[index] <= 'z')
 str[index] -= 32;
 }
-
 return (str);
 }
