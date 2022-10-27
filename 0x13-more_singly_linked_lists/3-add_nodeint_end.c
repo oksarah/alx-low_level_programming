@@ -1,6 +1,7 @@
-#include "main.h"
+#include <stdlib.h>
+#include <string.h>
 #include <stdio.h>
-#include <unistd.h>
+#include "lists.h"
 
 /**
  * add_nodeint_end - Adds a new node at the end of the list.
